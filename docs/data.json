@@ -1,0 +1,402 @@
+[
+  {
+    "year": 2026,
+    "week": 14,
+    "key": "2026-14",
+    "period": "2026年14週(03月30日～04月05日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/14/index.html",
+    "fetched_at": "2026-08-30T01:08:37+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 124.0,
+        "pref_rate": 2.76,
+        "national_rate": 3.21
+      },
+      "COVID-19": {
+        "pref_cases": 37.0,
+        "pref_rate": 0.82,
+        "national_rate": 0.77
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 15,
+    "key": "2026-15",
+    "period": "2026年15週(04月06日～04月12日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/15/index.html",
+    "fetched_at": "2026-08-30T01:08:36+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 45.0,
+        "pref_rate": 1.0,
+        "national_rate": 1.46
+      },
+      "COVID-19": {
+        "pref_cases": 16.0,
+        "pref_rate": 0.36,
+        "national_rate": 0.63
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 16,
+    "key": "2026-16",
+    "period": "2026年16週(04月13日～04月19日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/16/index.html",
+    "fetched_at": "2026-08-30T01:08:36+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 30.0,
+        "pref_rate": 0.67,
+        "national_rate": 0.92
+      },
+      "COVID-19": {
+        "pref_cases": 10.0,
+        "pref_rate": 0.22,
+        "national_rate": 0.68
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 17,
+    "key": "2026-17",
+    "period": "2026年17週(04月20日～04月26日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/17/index.html",
+    "fetched_at": "2026-08-30T01:08:35+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 9.0,
+        "pref_rate": 0.2,
+        "national_rate": 0.61
+      },
+      "COVID-19": {
+        "pref_cases": 18.0,
+        "pref_rate": 0.4,
+        "national_rate": 0.68
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 18,
+    "key": "2026-18",
+    "period": "2026年18週(04月27日～05月03日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/18/index.html",
+    "fetched_at": "2026-08-30T01:08:33+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 7.0,
+        "pref_rate": 0.16,
+        "national_rate": 0.41
+      },
+      "COVID-19": {
+        "pref_cases": 14.0,
+        "pref_rate": 0.31,
+        "national_rate": 0.59
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 19,
+    "key": "2026-19",
+    "period": "2026年19週(05月04日～05月10日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/19/index.html",
+    "fetched_at": "2026-08-30T01:08:32+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 5.0,
+        "pref_rate": 0.11,
+        "national_rate": 0.18
+      },
+      "COVID-19": {
+        "pref_cases": 11.0,
+        "pref_rate": 0.24,
+        "national_rate": 0.34
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 20,
+    "key": "2026-20",
+    "period": "2026年20週(05月11日～05月17日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/20/index.html",
+    "fetched_at": "2026-08-30T01:08:31+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 1.0,
+        "pref_rate": 0.02,
+        "national_rate": 0.14
+      },
+      "COVID-19": {
+        "pref_cases": 12.0,
+        "pref_rate": 0.27,
+        "national_rate": 0.37
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 21,
+    "key": "2026-21",
+    "period": "2026年21週(05月18日～05月24日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/21/index.html",
+    "fetched_at": "2026-08-30T01:08:31+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 4.0,
+        "pref_rate": 0.09,
+        "national_rate": 0.09
+      },
+      "COVID-19": {
+        "pref_cases": 6.0,
+        "pref_rate": 0.13,
+        "national_rate": 0.36
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 22,
+    "key": "2026-22",
+    "period": "2026年22週(05月25日～05月31日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/22/index.html",
+    "fetched_at": "2026-08-30T01:08:30+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 2.0,
+        "pref_rate": 0.04,
+        "national_rate": 0.07
+      },
+      "COVID-19": {
+        "pref_cases": 10.0,
+        "pref_rate": 0.22,
+        "national_rate": 0.36
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 23,
+    "key": "2026-23",
+    "period": "2026年23週(06月01日～06月07日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/23/index.html",
+    "fetched_at": "2026-08-30T01:08:29+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": null,
+        "pref_rate": null,
+        "national_rate": 0.06
+      },
+      "COVID-19": {
+        "pref_cases": 12.0,
+        "pref_rate": 0.27,
+        "national_rate": 0.42
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 24,
+    "key": "2026-24",
+    "period": "2026年24週(06月08日～06月14日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/24/index.html",
+    "fetched_at": "2026-08-30T01:08:28+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 1.0,
+        "pref_rate": 0.02,
+        "national_rate": 0.07
+      },
+      "COVID-19": {
+        "pref_cases": 19.0,
+        "pref_rate": 0.42,
+        "national_rate": 0.58
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 25,
+    "key": "2026-25",
+    "period": "2026年25週(06月15日～06月21日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/25/index.html",
+    "fetched_at": "2026-08-30T01:08:27+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": null,
+        "pref_rate": null,
+        "national_rate": 0.07
+      },
+      "COVID-19": {
+        "pref_cases": 26.0,
+        "pref_rate": 0.58,
+        "national_rate": 0.85
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 26,
+    "key": "2026-26",
+    "period": "2026年26週(06月22日～06月28日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/26/index.html",
+    "fetched_at": "2026-08-30T01:08:26+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": null,
+        "pref_rate": null,
+        "national_rate": 0.08
+      },
+      "COVID-19": {
+        "pref_cases": 33.0,
+        "pref_rate": 0.73,
+        "national_rate": 1.08
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 27,
+    "key": "2026-27",
+    "period": "2026年27週(06月29日～07月05日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/27/index.html",
+    "fetched_at": "2026-08-30T01:08:26+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": null,
+        "pref_rate": null,
+        "national_rate": 0.12
+      },
+      "COVID-19": {
+        "pref_cases": 92.0,
+        "pref_rate": 2.04,
+        "national_rate": 1.47
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 28,
+    "key": "2026-28",
+    "period": "2026年28週(07月06日～07月12日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/28/index.html",
+    "fetched_at": "2026-08-30T01:08:24+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": null,
+        "pref_rate": null,
+        "national_rate": 0.13
+      },
+      "COVID-19": {
+        "pref_cases": 141.0,
+        "pref_rate": 3.13,
+        "national_rate": 1.87
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 29,
+    "key": "2026-29",
+    "period": "2026年29週(07月13日～07月19日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/29/index.html",
+    "fetched_at": "2026-08-30T01:08:23+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": null,
+        "pref_rate": null,
+        "national_rate": 0.2
+      },
+      "COVID-19": {
+        "pref_cases": 186.0,
+        "pref_rate": 4.13,
+        "national_rate": 2.12
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 30,
+    "key": "2026-30",
+    "period": "2026年30週(07月20日～07月26日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/30/index.html",
+    "fetched_at": "2026-08-30T01:08:21+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 1.0,
+        "pref_rate": 0.02,
+        "national_rate": 0.24
+      },
+      "COVID-19": {
+        "pref_cases": 161.0,
+        "pref_rate": 3.58,
+        "national_rate": 1.53
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 31,
+    "key": "2026-31",
+    "period": "2026年31週(07月27日～08月02日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/31/index.html",
+    "fetched_at": "2026-08-30T01:08:21+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": null,
+        "pref_rate": null,
+        "national_rate": 0.37
+      },
+      "COVID-19": {
+        "pref_cases": 184.0,
+        "pref_rate": 4.09,
+        "national_rate": 1.7
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 32,
+    "key": "2026-32",
+    "period": "2026年32週(08月03日～08月09日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/32/index.html",
+    "fetched_at": "2026-08-30T01:08:19+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 16.0,
+        "pref_rate": 0.36,
+        "national_rate": 0.52
+      },
+      "COVID-19": {
+        "pref_cases": 179.0,
+        "pref_rate": 4.07,
+        "national_rate": 1.79
+      }
+    }
+  },
+  {
+    "year": 2026,
+    "week": 33,
+    "key": "2026-33",
+    "period": "2026年33週(08月10日～08月16日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/33/index.html",
+    "fetched_at": "2026-08-30T01:08:18+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 13.0,
+        "pref_rate": 0.29,
+        "national_rate": 0.69
+      },
+      "COVID-19": {
+        "pref_cases": 97.0,
+        "pref_rate": 2.16,
+        "national_rate": 1.12
+      }
+    }
+  }
+]
