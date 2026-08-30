@@ -1,0 +1,74 @@
+name: 和歌山県 感染症フィード更新
+
+on:
+  schedule:
+    # 火曜: JIHS の CSV 速報が更新される（数値の取得）。UTC 06:00 = JST 15:00
+    - cron: "0 6 * * 2"
+    # 金曜: 厚生労働省の報道発表が出る（新着PDFの早期通知）
+    - cron: "0 6 * * 5"
+    # 取りこぼし対策
+    - cron: "0 6 * * 3,6"
+
+  # Actions タブから手動実行するときの入力欄
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: "さかのぼって取得する週数（初回は 20 がおすすめ）"
+        required: false
+        default: "1"
+      init_mhlw:
+        description: "厚労省の通知を初期化する（初回だけチェック）"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      # 未設定のものは空文字になり、対応する処理がスキップされる
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: JIHS から数値を取得しフィードと埋め込みページを生成
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: python build_feed.py --backfill "${{ inputs.backfill || '1' }}"
+
+      # mhlw_watch.py を置いていなければ丸ごとスキップされる
+      - name: 厚生労働省の新着発表をチェック
+        if: hashFiles('mhlw_watch.py') != ''
+        continue-on-error: true
+        env:
+          INIT: ${{ inputs.init_mhlw }}
+        run: |
+          if [ "$INIT" = "true" ]; then
+            python mhlw_watch.py --init
+          else
+            python mhlw_watch.py
+          fi
+
+      # notion_sync.py が無い、または NOTION_TOKEN 未設定ならスキップされる
+      - name: Notion のデータベースに同期
+        if: env.NOTION_TOKEN != '' && hashFiles('notion_sync.py') != ''
+        run: python notion_sync.py
+
+      - name: 変更をコミット
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --staged --quiet || git commit -m "chore: 週次データを更新"
+          git push
