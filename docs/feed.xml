@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>和歌山県 コロナ・インフルエンザ 週次定点報告</title><link>https://kamekameshinya.github.io/wakayama-feed</link><description>和歌山県の新型コロナウイルス感染症とインフルエンザの定点当たり報告数を毎週配信します。データ元: 国立健康危機管理研究機構 感染症発生動向調査(IDWR)速報。</description><language>ja</language><lastBuildDate>Tue, 03 Nov 2026 13:38:59 +0000</lastBuildDate><item><title>和歌山県 2026年第42週 — インフル 4.29 / コロナ 0.71</title><link>https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/42/index.html</link><guid isPermaLink="false">wakayama-2026-42</guid><description>【和歌山県 定点当たり報告数】2026年42週(10月12日～10月18日)
+<rss version="2.0"><channel><title>和歌山県 コロナ・インフルエンザ 週次定点報告</title><link>https://kamekameshinya.github.io/wakayama-feed</link><description>和歌山県の新型コロナウイルス感染症とインフルエンザの定点当たり報告数を毎週配信します。データ元: 国立健康危機管理研究機構 感染症発生動向調査(IDWR)速報。</description><language>ja</language><lastBuildDate>Wed, 04 Nov 2026 13:29:18 +0000</lastBuildDate><item><title>和歌山県 2026年第43週 — インフル 4.89 / コロナ 0.53</title><link>https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/43/index.html</link><guid isPermaLink="false">wakayama-2026-43</guid><description>【和歌山県 定点当たり報告数】2026年43週(10月19日～10月25日)
+
+■ インフルエンザ: 4.89 ↑+14%（報告数 220件 / 全国平均 9.49）
+■ 新型コロナ (COVID-19): 0.53 ↓-25%（報告数 24件 / 全国平均 0.83）
+
+※インフルエンザの目安: 注意報 10.0 / 警報 30.0（定点当たり）
+※2025年第15週以降は定点数が変更されており、過去との単純比較には注意
+※出典: 国立健康危機管理研究機構 IDWR速報 https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/43/index.html
+※保健所別の内訳は和歌山県 WIDR (PDF) を参照: https://www.pref.wakayama.lg.jp/prefg/031801/idsw/khdc/d00153694.html
+※厚生労働省の報道発表（金曜・全国分）: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00485.html</description><pubDate>Wed, 04 Nov 2026 13:29:18 +0000</pubDate></item><item><title>和歌山県 2026年第42週 — インフル 4.29 / コロナ 0.71</title><link>https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/42/index.html</link><guid isPermaLink="false">wakayama-2026-42</guid><description>【和歌山県 定点当たり報告数】2026年42週(10月12日～10月18日)
 
 ■ インフルエンザ: 4.29 ↓-11%（報告数 193件 / 全国平均 9.08）
 ■ 新型コロナ (COVID-19): 0.71 ↓-30%（報告数 32件 / 全国平均 0.89）
