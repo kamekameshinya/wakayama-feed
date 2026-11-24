@@ -638,5 +638,25 @@
         "national_rate": 0.76
       }
     }
+  },
+  {
+    "year": 2026,
+    "week": 46,
+    "key": "2026-46",
+    "period": "2026年46週(11月09日～11月15日)",
+    "source": "https://id-info.jihs.go.jp/surveillance/idwr/provisional/2026/46/index.html",
+    "fetched_at": "2026-11-24T16:58:19+00:00",
+    "diseases": {
+      "インフルエンザ": {
+        "pref_cases": 329.0,
+        "pref_rate": 7.48,
+        "national_rate": 11.94
+      },
+      "COVID-19": {
+        "pref_cases": 7.0,
+        "pref_rate": 0.16,
+        "national_rate": 0.78
+      }
+    }
   }
 ]
